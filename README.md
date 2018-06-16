@@ -17,7 +17,7 @@
 
 ## Usage
 
-> Some usage instructions
+> In order to run the server, you should run npm install to install all the dependencies
 
 ## Requirements
 

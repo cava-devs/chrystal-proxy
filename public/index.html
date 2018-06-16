@@ -3,12 +3,33 @@
   <head>
     <meta charset="UTF-8">
     <title>CavaTable</title>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"></script>
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   </head>
   <body>
-    <div id="reviews"></div>
-    <link rel="stylesheet" href="/reviews/reviewsMain.css">
+    <img src="./assets/CavaTable_StaticImgBackground.png" width="1250">
+    <div class="container">
+        <div class="row">
+          <div class="col-sm-8">
+            <div id="overviewModule">Anoop's component</div>
+            <div id="menusModule">Menu Component</div>
+            <div id="bootstrap-overrides">
+            <div id="photo-service">Vince's photos component</div>
+            </div>
+            <div id="reviews">Chrystal's reviews component</div>
+          </div>
+          <div class="col-sm-4">
+            <div id="appReserve">Andrew's reservations component</div>
+          </div>
+        </div>
+    </div>
+    <script src="/overviews/overviewsBundle.js"></script>
+    <script src="/menus/menusBundle.js"></script>
+    <script src="/reservations/dist/reservationsBundle.js"></script>
+    <script src="/photos/photosBundle"></script>
+    <script src="/photos/photosBundleCSS"></script>
     <script src="/reviews/reviewsBundle.js"></script>
+    <link rel="stylesheet" href="/reviews/reviewsMain.css">
   </body>
 </html>
